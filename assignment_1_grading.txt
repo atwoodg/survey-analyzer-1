@@ -1,0 +1,49 @@
+Assignment 1 Grading:
+---------------------
+Student gabrielatwood
+Grade: 
+
+Compile output: 
+
+repos/gabrielatwood/survey.c: In function ‘format’:
+repos/gabrielatwood/survey.c:24:9: warning: unused variable ‘fmt’ [-Wunused-variable]
+   24 |     int fmt;
+      |         ^~~
+repos/gabrielatwood/survey.c: In function ‘tokenize’:
+repos/gabrielatwood/survey.c:51:9: warning: unused variable ‘j’ [-Wunused-variable]
+   51 |     int j = 0;
+      |         ^
+
+
+
+Tests results
+
+Test 1: Passed
+Test 2: Passed
+Test 3: Passed
+
+Tests Feedback:
+3/3 Tests passed.
+
+Committing practices:
+
+git log --pretty
+aa0b430	Gabriel Atwood	Mon Oct 6 00:13:30 2025 -0700	Final adjustments to satisy diff testing and added final comments
+3f9e582	Gabriel Atwood	Sun Oct 5 23:22:40 2025 -0700	added average function for 0,1 output and added output functions
+180cbe8	Gabriel Atwood	Sat Oct 4 23:03:55 2025 -0700	added tokenization function and proportions function to build array ofcounts for answers to questions. Also built string struct
+2110f7b	Gabriel Atwood	Fri Oct 3 16:43:50 2025 -0700	added tokenization of questions/assertions
+c8bd23e	Gabriel Atwood	Thu Oct 2 23:24:00 2025 -0700	Added function to detetermine survey output format
+113f8e4	Gabriel Atwood	Sat Sep 27 12:39:06 2025 -0700	Added lines to 2D array (excluding comments)
+79cdfe9	Gabriel Atwood	Sat Sep 27 12:04:19 2025 -0700	Initial commit, created while loop to read file line by line
+94b7227	Roberto Bittencourt	Tue Sep 23 00:06:15 2025 +0000	Fixed test_scripts.sh
+503ff10	Roberto Bittencourt	Thu Sep 18 14:44:20 2025 -0700	Added starter files
+9bb2124	Roberto Bittencourt	Thu Sep 18 21:41:57 2025 +0000	Initial commit
+
+
+Modularization:
+10
+Documentation:
+10
+
+version ctrl and array use:
+10 + 10
