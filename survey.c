@@ -21,7 +21,6 @@ typedef struct {
 int format(char lines[][MAX_CHARS]) {
 
     //Setting variables to tokenize by comma
-    int fmt;
     char delimiter[] = ",";
     char format[2];
     char *token = strtok(lines[0], delimiter);
@@ -48,7 +47,6 @@ Strings tokenize(char *line, char delimeter[]) {
     Strings tokenized;
     tokenized.size = 0;
     char* token;
-    int j = 0;
 
     //while loop building tokenized (2D array)
     token = strtok(line, delimeter);
