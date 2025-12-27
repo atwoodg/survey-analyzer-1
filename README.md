@@ -28,9 +28,9 @@ Information is pulled from the survey text file with line-based input parsing, t
 Clone the repo and compile:
 
 ```bash
-git clone https://github.com/atwoodg/survey-analyzer-1.git
+git clone https://github.com/atwoodg/survey-analyzer.git
 
-cd survey-analyzer-1
+cd survey-analyzer
 
 gcc -std=c11 -Wall -Wextra -O2 survey.c -o survey
 ```
