@@ -25,10 +25,11 @@ Information is pulled from the survey text file with line-based input parsing, t
 - Unix CLI
 
 ## Installation
-Clone the repo and install the required dependencies:
+Clone the repo and compile:
 
 ```bash
 git clone https://github.com/atwoodg/survey-analyzer-1.git
+
 cd survey-analyzer-1
 
 gcc -std=c11 -Wall -Wextra -O2 survey.c -o survey
